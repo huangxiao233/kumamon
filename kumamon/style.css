@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+  }
+  body{
+    background:black ;
+  }
+.wrapper{
+    padding-top: 15%
+}
+  .kumamon{
+    width:100%;
+    /* border:1px red solid; */
+    height:800px;
+    
+     /* padding-top:25px; */
+     position: relative;
+    
+     
+  }
+  .face{
+    width:90px;
+    height:90px;
+    position: absolute;
+    border:1px solid black;
+    border-radius:100%;
+    background: red;
+    top:120px;
+    
+  }
+  .left.face{
+    right:50%;
+    margin-right:130px;
+    
+  }
+  .right.face{
+    left:50%;
+    margin-left:130px;
+  }
+  .eye{
+    width:80px;
+    height:80px;
+    position: absolute;
+    border:1px solid black;
+    border-radius:100%;
+    background: white;
+    top:50px;
+    
+  }
+  .eye::after{
+    width:10px;
+    height:30px;
+    border: 1px solid black;
+    content:'';
+    background: black;
+    border-radius:50%;
+    position: absolute;
+    left:50%;
+    margin-left: -5px;
+    top:20px;
+   
+  }
+  .left.eye{
+   right:50%;
+    margin-right:40px;
+  }
+  .right.eye{
+   left:50%;
+    margin-left:40px;
+  }
+  .mouse{
+    width:200px;
+    height:150px;
+    /* border: 1px solid red; */
+    border-radius:50%;
+    background: white;
+    position: absolute;
+    left:50%;
+    margin-left: -100px;
+    top:130px
+  }
+  .nose{
+    
+  }
+  .lip{
+    width:150px;
+    height:15px;
+    /* border: 1px solid red; */
+    border-radius:50%;
+    background: black;
+    position: absolute;
+    left:50%;
+    margin-left: -75px;
+    top:80px
+  }
+  .nose{
+    width: 65px;
+  
+    height: 47px;
+    top: 9px;
+    border-radius:  100% 100% 65px 65px;
+    background: black;
+    position:absolute;
+    left:50%;
+    margin-left: -37.5px;
+  }
+  .browers{
+    width:50px;
+    height:40px;
+    background: white;
+    position: absolute;
+    border-radius:20px;
+    /* overflow:hidden; */
+    border: 1px black solid;
+    
+  }
+  
+  .browers::before{
+    content:'';
+    width:50px;
+    height:45px;
+    border-radius:100%;
+    /* border: 1px black solid; */
+    background:black;
+    position: absolute;
+    top:5px;
+    left:50%;
+    margin-left: -25px;
+    overflow:hidden;
+    
+    
+    
+      
+  }
+  .left.browers{
+    right:50%;
+    margin-right:60px ;
+  }
+  .right.browers{
+    left:50%;
+    margin-left: 60px;
+  }
+  
